@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Asap Condensed';
+    background: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+button{
+    border: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background-color: tomato;
+    position: relative;
+    transition: 0.3s all;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    color: tomato;
+    background-color: #ccc;
+
+
+}
+
+
+.Container h1{
+    font-size: 60px;
+    display: block;
+    color: #fff;
+    background-color: tomato;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.Container div{
+    display: flex;
+    flex-direction: column;
+}
+.Container div textarea{
+    border: 1px solid salmon;
+    height: 100px;
+    width: 400px;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.Container div button{
+    display: block;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    float: bottom;
+
+}
+
+.Container  ul{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-40%,0)
+}
+
+.Container ul li  {
+    display: table;
+    width: 400px;
+    min-height: 100px;
+    font-size: 20px;
+    margin: 0px 50% 10px 50%;
+    border: 1px solid tomato;
+    background: #fff;
+    position: relative;
+    height: auto;
+}
+.Container  ul li span{
+display: block;
+    left: 0;
+    width: 300px;
+    height: auto;
+    font-size: 20px;
+    word-wrap: break-word;
+    color: tomato;
+}
+.Container  ul li button{
+    display: table-cell;
+    font-weight: normal;
+    border-radius: 0;
+    font-size: 15px;
+    float: right;
+    width:100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+
+}
+
+.removeAll {
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 30px;
+    float: right;
+    float: bottom;
+    position: fixed;
+    left: 65%;
+    top: 80%;
+    transform: translateX(-50%, -50%);
+
+}
+
