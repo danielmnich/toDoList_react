@@ -53,7 +53,7 @@ class Task extends Component{
     }
     render(){
         return(
-             <li> <span>{this.props.text}</span>
+            <li> <span><h3> Task Number {this.props.index + 1}</h3></span>{this.props.text}
               <button type = "button" onClick= {this.handleClick}>Remove</button>
              </li>
         )
